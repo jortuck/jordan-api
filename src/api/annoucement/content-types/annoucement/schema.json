@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "annoucements",
+  "info": {
+    "singularName": "annoucement",
+    "pluralName": "annoucements",
+    "displayName": "annoucement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
