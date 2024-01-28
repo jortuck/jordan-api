@@ -6,7 +6,7 @@ services:
       - prod
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
     image: jordan-api-prod:latest
     restart: unless-stopped
     env_file: .env
