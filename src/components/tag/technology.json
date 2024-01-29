@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_tag_technologies",
+  "info": {
+    "displayName": "technology"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logoColor": {
+      "type": "string",
+      "default": "white",
+      "required": true
+    },
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true,
+      "default": "black"
+    }
+  }
+}
