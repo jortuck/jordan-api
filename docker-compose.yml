@@ -82,9 +82,8 @@ services:
     volumes:
       - jordan-api-data:/var/lib/postgresql/data/ #using a volume
       #- ./data:/var/lib/postgresql/data/ # if you want to use a bind folder
-
-    ports:
-      - "5433:5432"
+#    ports:
+#      - "5433:5432"
     networks:
       - jordan-api
 
