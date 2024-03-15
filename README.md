@@ -23,11 +23,11 @@ docker compose --profile prod up -d --build
 ```
 #### Don't forget to use the respective down command.
 ```
-docker compose --profile dev down -d --build
+docker compose --profile dev down
 ```
 or
 ```
-docker compose --profile prod down -d --build
+docker compose --profile prod down
 ```
 
 # 🚀 Getting started with Strapi
