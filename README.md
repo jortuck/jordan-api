@@ -7,9 +7,10 @@ for the front end here: https://github.com/driedsponge/driedsponge.net.
 
 This instance is configured with Docker & Docker Compose.
 You will need to create a copy of `.env.example` and rename it to `.env`.
-Be sure to set the roper environment variables.
+Be sure to set the proper environment variables.
 
-The production and development configurations share the same Postgres database.
+The production and development configurations share the same Postgres database. They also share the
+same credentials.
 
 **This specific instance runs on port `1337`**.
 
