@@ -30,6 +30,13 @@ or
 ```
 docker compose --profile prod down
 ```
+#### Running Commands Inside The Container
+```
+docker compose exec jordan-api 
+```
+```
+docker compose exec jordan-api-prod
+```
 
 # 🚀 Getting started with Strapi
 
