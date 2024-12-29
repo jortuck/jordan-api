@@ -1,3 +1,6 @@
+> [!NOTE]  
+> Project is now archived due to switching to entirely static front end.
+
 # About
 
 This is the API for my website https://jordantucker.dev. You can find the repository
